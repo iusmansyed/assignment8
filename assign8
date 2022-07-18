@@ -1,0 +1,98 @@
+// *****chap 26 - 30*********
+
+//*******TASK  NO 1******* */
+
+// var a = Number(prompt("Enter any positive integer with some decimals"));
+// var b = Math.round(a);
+// var c = Math.floor(a);
+// var d = Math.ceil(a);
+// document.write("Number " + a + "<br>");
+// document.write("Round off value " + b+ "<br>")
+// document.write("floor value " + c+ "<br>");
+// document.write("ceil value " + d);
+
+
+
+
+
+//*******TASK  NO 2******* */
+
+
+// var a = Number(prompt("Enter any negative integer with some decimals"));
+// var b = Math.round(a);
+// var c = Math.floor(a);
+// var d = Math.ceil(a);
+// document.write("Number " + a + "<br>");
+// document.write("Round off value " + b+ "<br>")
+// document.write("floor value " + c+ "<br>");
+// document.write("ceil value " + d);
+
+
+
+
+// *******TASK  NO 3******* */
+
+// var a = +prompt("enter any negative number");
+// var b = Math.abs(a);
+// console.log(b)
+
+
+
+
+// *******TASK  NO 4******* */
+
+// var ran = Math.floor(Math.random() * 6 + 1);
+// if(ran === 1){
+//     alert(+ "\n"+ "1 point" + "\n" + "reload page for again")
+// }
+// else if(ran === 2){
+//     alert( + "\n"+ "2 point" + "\n" + "reload page for again")
+// }
+// else if(ran === 3){
+//     alert(+ "\n" + "3 point" + "\n" + "reload page for again")
+// }else if(ran === 4){
+//     alert( + "\n"+ "4 point" + "\n" + "reload page for again")
+// }else if(ran === 5){
+//     alert( + "\n"+ "5 point" + "\n" + "reload page for again")
+// }else if(ran === 6){
+//     alert( + "\n"+ "6 point" + "\n" + "reload page for again")
+// }
+
+
+
+
+// *******TASK  NO 5******* */
+
+// var a = Math.round(Math.random());
+// if(a === 1){
+//     alert("Head is a winner"+ "\n" +"reload page for again toss")
+// }
+// else{
+//     alert("Tail is a winner" + "\n" +"reload page for again toss")
+// }
+
+
+
+
+// *******TASK  NO 6******* */
+
+// var a = Math.floor(Math.random() * 100)
+// document.write("[ "+a + " ]"+ "<br>" + " reload page to try again for a random number")
+
+
+// *******TASK  NO 7******* */
+
+// var a = +prompt("Enter your weight");
+// document.write("The weight of user is " + a)
+
+// *******TASK  NO 8******* */
+
+// var a = Math.floor(Math.random() * 10 +1);
+// var b = +prompt("Enter any number from 1-10");
+// if(b === a){
+//     alert("congradjulations    our secret number match by your entered number")
+// }
+// else{
+//     alert("try again  to match  our secret number  by your entered number")
+
+// }
